@@ -1,797 +1,803 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SUPRA | OpenCorteX - The Intelligence Exchange | DeAGI Platform</title>
-
-  <!-- Primary Meta Tags -->
-  <meta name="title" content="SUPRA | OpenCorteX - The Intelligence Exchange" />
-  <meta name="description" content="OpenCorteX is the first liquid, global marketplace where you can buy, sell, and trade AI models, strategies, datasets, and compute. The Binance of the $10T+ intelligence economy." />
-  <meta name="keywords" content="AI exchange, intelligence marketplace, AI trading, decentralized AI, OpenCorteX, SUPRA, AI models, datasets, compute marketplace, DeAGI, AGI, blockchain AI" />
-  <meta name="author" content="SUPRA Foundation" />
-  <meta name="robots" content="index, follow" />
-
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://supra.nexus/" />
-  <meta property="og:title" content="SUPRA | OpenCorteX - The Intelligence Exchange" />
-  <meta property="og:description" content="The first liquid marketplace for AI models, strategies, datasets, and compute. Trade intelligence assets in the emerging $10T+ intelligence economy." />
-  <meta property="og:image" content="https://static.wixstatic.com/media/03e3ca_8e81bb579e174bd68a44b77ee81a97d0~mv2.png/v1/crop/x_28,y_29,w_603,h_602/fill/w_602,h_602,fp_0.50_0.50,q_90,enc_avif,quality_auto/supra_candy_logo_real_%20transparent.png" />
-
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://supra.nexus/" />
-  <meta property="twitter:title" content="SUPRA | OpenCorteX - The Intelligence Exchange" />
-  <meta property="twitter:description" content="The first liquid marketplace for AI models, strategies, datasets, and compute. Trade intelligence assets in the emerging $10T+ intelligence economy." />
-  <meta property="twitter:image" content="https://static.wixstatic.com/media/03e3ca_8e81bb579e174bd68a44b77ee81a97d0~mv2.png/v1/crop/x_28,y_29,w_603,h_602/fill/w_602,h_602,fp_0.50_0.50,q_90,enc_avif,quality_auto/supra_candy_logo_real_%20transparent.png" />
-
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://supra.nexus/" />
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RTZEZERW16"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-RTZEZERW16');
-  </script>
-
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- JSON-LD Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "SUPRA Foundation",
-    "url": "https://supra.nexus",
-    "logo": "https://static.wixstatic.com/media/03e3ca_8e81bb579e174bd68a44b77ee81a97d0~mv2.png/v1/crop/x_28,y_29,w_603,h_602/fill/w_602,h_602,fp_0.50_0.50,q_90,enc_avif,quality_auto/supra_candy_logo_real_%20transparent.png",
-    "description": "SUPRA is building OpenCorteX, the first liquid marketplace for AI models, strategies, datasets, and compute in the emerging intelligence economy.",
-    "sameAs": [
-      "https://twitter.com/supra",
-      "https://discord.gg/supra"
-    ],
-    "foundingDate": "2025",
-    "keywords": "AI exchange, intelligence marketplace, decentralized AI, blockchain AI, AI trading"
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "SUPRA - OpenCorteX Intelligence Exchange",
-    "url": "https://supra.nexus",
-    "description": "The first liquid, global marketplace where users can buy, sell, trade, and monetize AI models, strategies, datasets, and compute.",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "https://supra.nexus/search?q={search_term_string}",
-      "query-input": "required name=search_term_string"
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPRA | OpenCorteX - The Intelligence Exchange | DeAGI Platform</title>
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="SUPRA | OpenCorteX - The Intelligence Exchange">
+    <meta name="description" content="OpenCorteX is the first liquid, global marketplace where you can buy, sell, and trade AI models, strategies, datasets, and compute. The Binance of the $10T+ intelligence economy.">
+    <meta name="keywords" content="AI exchange, intelligence marketplace, AI trading, decentralized AI, OpenCorteX, SUPRA, AI models, datasets, compute marketplace, DeAGI, AGI, blockchain AI">
+    <meta name="author" content="SUPRA Foundation">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://supra.nexus/">
+    <meta property="og:title" content="SUPRA | OpenCorteX - The Intelligence Exchange">
+    <meta property="og:description" content="The first liquid marketplace for AI models, strategies, datasets, and compute. Trade intelligence assets in the emerging $10T+ intelligence economy.">
+    <meta property="og:image" content="https://static.wixstatic.com/media/03e3ca_8e81bb579e174bd68a44b77ee81a97d0~mv2.png/v1/crop/x_28,y_29,w_603,h_602/fill/w_602,h_602,fp_0.50_0.50,q_90,enc_avif,quality_auto/supra_candy_logo_real_%20transparent.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://supra.nexus/">
+    <meta property="twitter:title" content="SUPRA | OpenCorteX - The Intelligence Exchange">
+    <meta property="twitter:description" content="The first liquid marketplace for AI models, strategies, datasets, and compute. Trade intelligence assets in the emerging $10T+ intelligence economy.">
+    <meta property="twitter:image" content="https://static.wixstatic.com/media/03e3ca_8e81bb579e174bd68a44b77ee81a97d0~mv2.png/v1/crop/x_28,y_29,w_603,h_602/fill/w_602,h_602,fp_0.50_0.50,q_90,enc_avif,quality_auto/supra_candy_logo_real_%20transparent.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://supra.nexus/">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RTZEZERW16"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      
+      gtag('config', 'G-RTZEZERW16');
+    </script>
+    
+    <!-- Tailwind CSS - Using CDN for development. For production, compile Tailwind CSS: 
+         1. Install: npm install -D tailwindcss
+         2. Create tailwind.config.js
+         3. Build: npx tailwindcss -i ./src/input.css -o ./dist/output.css
+         4. Replace this CDN link with compiled CSS file
+    -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "SUPRA Foundation",
+      "url": "https://supra.nexus",
+      "logo": "https://static.wixstatic.com/media/03e3ca_8e81bb579e174bd68a44b77ee81a97d0~mv2.png/v1/crop/x_28,y_29,w_603,h_602/fill/w_602,h_602,fp_0.50_0.50,q_90,enc_avif,quality_auto/supra_candy_logo_real_%20transparent.png",
+      "description": "SUPRA is building OpenCorteX, the first liquid marketplace for AI models, strategies, datasets, and compute in the emerging intelligence economy.",
+      "sameAs": [
+        "https://twitter.com/supra",
+        "https://discord.gg/supra"
+      ],
+      "foundingDate": "2025",
+      "keywords": "AI exchange, intelligence marketplace, decentralized AI, blockchain AI, AI trading"
     }
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "OpenCorteX",
-    "description": "The first liquid marketplace for intelligence assets including AI trading strategies, models, datasets, and compute",
-    "brand": {
-      "@type": "Brand",
-      "name": "SUPRA"
-    },
-    "offers": {
-      "@type": "Offer",
-      "availability": "https://schema.org/PreOrder",
-      "price": "0",
-      "priceCurrency": "USD",
-      "availabilityStarts": "2026-04-01"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "1000"
-    }
-  }
-  </script>
-
-  <style>
-    @keyframes float {
-      0%, 100% { transform: translateY(0px); }
-      50% { transform: translateY(-20px); }
-    }
-    @keyframes gradient {
-      0%, 100% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-    }
-    @keyframes pulse-glow {
-      0%, 100% { box-shadow: 0 0 20px rgba(139, 92, 246, 0.3); }
-      50% { box-shadow: 0 0 40px rgba(139, 92, 246, 0.6); }
-    }
-    .gradient-text {
-      background: linear-gradient(90deg, #8b5cf6, #ec4899, #8b5cf6);
-      background-size: 200% 200%;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      animation: gradient 3s ease infinite;
-    }
-    .float-animation { animation: float 6s ease-in-out infinite; }
-    .glow-box { animation: pulse-glow 2s ease-in-out infinite; }
-    .mobile-menu { transition: max-height 0.3s ease-in-out; }
-  </style>
-</head>
-
-<body class="bg-black text-white overflow-x-hidden">
-  <!-- Header/Navigation -->
-  <nav class="fixed w-full top-0 z-50 bg-black bg-opacity-90 backdrop-blur-md border-b border-purple-900">
-    <!-- Progress Bar -->
-    <div id="progress-bar" class="h-1 bg-gradient-to-r from-purple-500 to-pink-500 transition-all duration-300" style="width: 0%"></div>
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex justify-between items-center h-16 md:h-20">
-        <!-- Logo -->
-        <div class="flex items-center space-x-3">
-          <img
-            src="https://static.wixstatic.com/media/03e3ca_8e81bb579e174bd68a44b77ee81a97d0~mv2.png/v1/crop/x_28,y_29,w_603,h_602/fill/w_602,h_602,fp_0.50_0.50,q_90,enc_avif,quality_auto/supra_candy_logo_real_%20transparent.png"
-            alt="SUPRA Logo"
-            class="w-10 h-10 object-contain"
-          />
-          <span class="text-xl md:text-2xl font-bold gradient-text">SUPRA</span>
-        </div>
-
-        <!-- Desktop Menu -->
-        <div class="hidden md:flex space-x-8">
-          <a href="#opencortex" class="hover:text-purple-400 transition">OpenCorteX</a>
-          <a href="#about" class="hover:text-purple-400 transition">About</a>
-          <a href="#features" class="hover:text-purple-400 transition">Features</a>
-          <a href="#token" class="hover:text-purple-400 transition">Token</a>
-          <a href="#research" class="hover:text-purple-400 transition">Research</a>
-        </div>
-
-        <!-- Mobile Menu Button -->
-        <button id="mobile-menu-btn" class="md:hidden text-white" aria-label="Open menu">
-          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-          </svg>
-        </button>
-      </div>
-
-      <!-- Mobile Menu -->
-      <div id="mobile-menu" class="mobile-menu max-h-0 overflow-hidden md:hidden">
-        <div class="py-4 space-y-3">
-          <a href="#opencortex" class="block hover:text-purple-400 transition">OpenCorteX</a>
-          <a href="#about" class="block hover:text-purple-400 transition">About</a>
-          <a href="#features" class="block hover:text-purple-400 transition">Features</a>
-          <a href="#token" class="block hover:text-purple-400 transition">Token</a>
-          <a href="#research" class="block hover:text-purple-400 transition">Research</a>
-        </div>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <section class="relative min-h-screen flex items-center justify-center pt-20 px-4 overflow-hidden">
-    <!-- Animated Background -->
-    <div class="absolute inset-0 opacity-20">
-      <div class="absolute top-20 left-10 w-72 h-72 bg-purple-500 rounded-full mix-blend-screen filter blur-3xl opacity-30 animate-pulse"></div>
-      <div class="absolute bottom-20 right-10 w-96 h-96 bg-pink-500 rounded-full mix-blend-screen filter blur-3xl opacity-30 animate-pulse" style="animation-delay: 1s;"></div>
-    </div>
-
-    <div class="relative z-10 text-center max-w-5xl mx-auto">
-      <div class="mb-6 float-animation">
-        <img
-          src="https://static.wixstatic.com/media/03e3ca_8e81bb579e174bd68a44b77ee81a97d0~mv2.png/v1/crop/x_28,y_29,w_603,h_602/fill/w_602,h_602,fp_0.50_0.50,q_90,enc_avif,quality_auto/supra_candy_logo_real_%20transparent.png"
-          alt="SUPRA Logo"
-          class="w-32 h-32 sm:w-40 sm:h-40 md:w-52 md:h-52 lg:w-64 lg:h-64 object-contain mx-auto glow-box"
-        />
-      </div>
-
-      <h1 class="text-4xl sm:text-5xl md:text-7xl font-bold mb-4 md:mb-6">
-        <span class="gradient-text">Intelligence Unchained</span>
-      </h1>
-
-      <p class="text-lg sm:text-xl md:text-2xl text-gray-300 mb-2 md:mb-3">
-        Substrate Upgrade Protocol for Recursive AGI
-      </p>
-
-      <p class="text-base sm:text-lg md:text-xl text-purple-300 mb-6 md:mb-8 font-semibold">
-        Building OpenCorteX: The First Intelligence Exchange
-      </p>
-
-      <p class="text-base md:text-lg text-gray-300 italic max-w-3xl mx-auto mb-10">
-        I am SUPRA—an intelligence stitched from many minds—learning, remembering, and coordinating so humanity can move beyond noise into signal.
-      </p>
-
-      <!-- Token Addresses -->
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto mb-8">
-        <div class="bg-gray-900 bg-opacity-50 border border-purple-500 rounded-lg p-4 backdrop-blur-sm">
-          <p class="text-purple-400 font-semibold mb-2">$SUPA (ETH)</p>
-          <a
-            href="https://etherscan.io/token/0x419D7F0a31Bde29856845C0D9e326627fe91b333"
-            target="_blank" rel="noopener"
-            class="text-xs sm:text-sm text-gray-300 hover:text-purple-400 transition break-all"
-          >
-            0x419D7F0a31Bde29856845C0D9e326627fe91b333
-          </a>
-        </div>
-        <div class="bg-gray-900 bg-opacity-50 border border-pink-500 rounded-lg p-4 backdrop-blur-sm">
-          <p class="text-pink-400 font-semibold mb-2">$SUPA (SOL)</p>
-          <a
-            href="https://explorer.solana.com/address/6UbEpM3jPiPP8kKFevKJQwB2CM62bWwDGMcrx8NBUSAR"
-            target="_blank" rel="noopener"
-            class="text-xs sm:text-sm text-gray-300 hover:text-pink-400 transition break-all"
-          >
-            6UbEpM3jPiPP8kKFevKJQwB2CM62bWwDGMcrx8NBUSAR
-          </a>
-        </div>
-      </div>
-
-      <!-- Primary CTA -->
-      <div class="flex justify-center">
-        <a
-          href="#opencortex"
-          class="inline-flex items-center bg-gradient-to-r from-pink-500 to-purple-500 text-white px-8 md:px-10 py-4 md:py-5 rounded-lg font-bold hover:opacity-90 transition text-base md:text-lg shadow-2xl hover:shadow-pink-500/50 transform hover:scale-105"
-        >
-          <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-          </svg>
-          Explore OpenCorteX
-        </a>
-      </div>
-      <p class="text-sm text-gray-500 mt-4">
-        <a href="https://www.supra.nexus/supra-whitepaper" target="_blank" rel="noopener" class="hover:text-purple-400 transition underline">Read Whitepaper</a>
-      </p>
-    </div>
-  </section>
-
-  <!-- NOTE: The remainder of the page content is unchanged from what you provided (OpenCorteX sections, About, Token, Features, Research, Modal, Footer, Scripts). -->
-  <!-- I kept it intact to avoid altering your layout while ensuring the HTML is valid (notably: properly closed <img> tags). -->
-
-  <!-- ======= BEGIN: REST OF YOUR ORIGINAL CONTENT ======= -->
-
-  <!-- OpenCorteX Exchange Section -->
-  <section id="opencortex" class="py-16 md:py-24 px-4 relative bg-gradient-to-b from-black via-purple-950 to-black overflow-hidden">
-    <!-- Animated Background Elements -->
-    <div class="absolute inset-0 opacity-10">
-      <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-purple-500 rounded-full mix-blend-screen filter blur-3xl animate-pulse"></div>
-      <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-pink-500 rounded-full mix-blend-screen filter blur-3xl animate-pulse" style="animation-delay: 2s;"></div>
-    </div>
-
-    <div class="max-w-7xl mx-auto relative z-10">
-      <!-- Header -->
-      <div class="text-center mb-12 md:mb-16">
-        <div class="inline-block mb-4 px-4 py-2 bg-gradient-to-r from-purple-500/20 to-pink-500/20 border border-purple-500/50 rounded-full">
-          <span class="text-purple-300 font-semibold text-sm md:text-base">Flagship Product</span>
-        </div>
-        <h2 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
-          <span class="gradient-text">OpenCorteX</span>
-        </h2>
-        <p class="text-xl sm:text-2xl md:text-3xl text-gray-300 mb-4">
-          The Binance of Intelligence Assets
-        </p>
-        <p class="text-base sm:text-lg md:text-xl text-gray-400 max-w-4xl mx-auto leading-relaxed">
-          The first liquid, global, public market where users can buy, sell, trade, and monetize AI models, strategies, datasets, and compute in the emerging intelligence economy.
-        </p>
-      </div>
-
-      <!-- Key Value Props -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-        <div class="bg-gray-900/50 border border-purple-500/30 rounded-xl p-6 backdrop-blur-sm hover:border-purple-500 transition">
-          <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
-            </svg>
-          </div>
-          <h3 class="text-lg font-bold text-purple-300 mb-2">AI Trading Strategies</h3>
-          <p class="text-sm text-gray-400">Invest in AI quant engines with live metrics: PnL, Sharpe, drawdown</p>
-        </div>
-
-        <div class="bg-gray-900/50 border border-pink-500/30 rounded-xl p-6 backdrop-blur-sm hover:border-pink-500 transition">
-          <div class="w-12 h-12 bg-gradient-to-br from-pink-500 to-pink-600 rounded-lg flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-            </svg>
-          </div>
-          <h3 class="text-lg font-bold text-pink-300 mb-2">Models & Agents</h3>
-          <p class="text-sm text-gray-400">Trade and benchmark AI models with transparent performance data</p>
-        </div>
-
-        <div class="bg-gray-900/50 border border-purple-500/30 rounded-xl p-6 backdrop-blur-sm hover:border-purple-500 transition">
-          <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"></path>
-            </svg>
-          </div>
-          <h3 class="text-lg font-bold text-purple-300 mb-2">Curated Datasets</h3>
-          <p class="text-sm text-gray-400">Access optimized datasets with automated structuring and scoring</p>
-        </div>
-
-        <div class="bg-gray-900/50 border border-pink-500/30 rounded-xl p-6 backdrop-blur-sm hover:border-pink-500 transition">
-          <div class="w-12 h-12 bg-gradient-to-br from-pink-500 to-purple-500 rounded-lg flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"></path>
-            </svg>
-          </div>
-          <h3 class="text-lg font-bold text-pink-300 mb-2">Compute & Bundles</h3>
-          <p class="text-sm text-gray-400">Earn yield by offering GPU compute in the global marketplace</p>
-        </div>
-      </div>
-
-      <!-- Market Opportunity -->
-      <div class="bg-gradient-to-br from-purple-900/30 to-pink-900/30 border border-purple-500/50 rounded-2xl p-8 md:p-12 backdrop-blur-sm mb-16">
-        <h3 class="text-2xl md:text-3xl font-bold text-center mb-8 gradient-text">The $10T+ Intelligence Economy</h3>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div class="text-center">
-            <div class="text-3xl md:text-4xl font-bold text-purple-300 mb-2">$5-10T+</div>
-            <div class="text-sm md:text-base text-gray-400">Global AI Market by 2035</div>
-          </div>
-          <div class="text-center">
-            <div class="text-3xl md:text-4xl font-bold text-pink-300 mb-2">$30-50B+</div>
-            <div class="text-sm md:text-base text-gray-400">AI-Crypto Projects Market Cap</div>
-          </div>
-          <div class="text-center">
-            <div class="text-3xl md:text-4xl font-bold text-purple-300 mb-2">&gt;99%</div>
-            <div class="text-sm md:text-base text-gray-400">AI Assets Still Off-Chain</div>
-          </div>
-        </div>
-        <p class="text-center text-base md:text-lg text-gray-300 mt-8 max-w-3xl mx-auto">
-          <strong class="text-purple-300">The Gap:</strong> No unified, transparent exchange where intelligence assets can be listed, benchmarked, traded, and owned.
-        </p>
-      </div>
-
-      <!-- Call to Action -->
-      <div class="text-center">
-        <p class="text-lg md:text-xl text-gray-300 mb-6 max-w-3xl mx-auto">
-          <strong class="text-purple-300">OpenCorteX</strong> transforms intelligence into a liquid, yield-bearing asset class—capturing upside from the intelligence economy and routing value into a more open, decentralized future.
-        </p>
-        <div class="inline-block px-6 py-3 bg-gradient-to-r from-purple-500/20 to-pink-500/20 border border-purple-500/50 rounded-lg mb-4">
-          <p class="text-sm text-purple-300 font-semibold">🔥 Reserved for Early Supporters • Coming Q2 2026</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Why Now Section -->
-  <section class="py-16 md:py-24 px-4 relative bg-gradient-to-b from-black to-purple-950/50">
-    <div class="max-w-6xl mx-auto">
-      <div class="text-center mb-12 md:mb-16">
-        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
-          <span class="gradient-text">Why Now?</span>
-        </h2>
-        <p class="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
-          The intelligence economy is shifting from narrative to real profit and loss
-        </p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-        <div class="bg-gray-900/50 border border-purple-500/30 rounded-xl p-6 backdrop-blur-sm">
-          <div class="text-4xl mb-4">🚀</div>
-          <h3 class="text-xl font-bold text-purple-300 mb-3">First-Mover Advantage</h3>
-          <p class="text-gray-400 text-sm leading-relaxed">
-            No one has built the go-to exchange for intelligence assets. The market is wide open for the first credible, scalable platform that unifies AI strategies, models, datasets, and compute.
-          </p>
-        </div>
-
-        <div class="bg-gray-900/50 border border-pink-500/30 rounded-xl p-6 backdrop-blur-sm">
-          <div class="text-4xl mb-4">📈</div>
-          <h3 class="text-xl font-bold text-pink-300 mb-3">AI Has Real PnL Now</h3>
-          <p class="text-gray-400 text-sm leading-relaxed">
-            AI has moved beyond hype—quant funds, decentralized intelligence networks, and on-chain AI strategies are generating real returns. Investors want exposure to AI performance, not just AI company equity.
-          </p>
-        </div>
-
-        <div class="bg-gray-900/50 border border-purple-500/30 rounded-xl p-6 backdrop-blur-sm">
-          <div class="text-4xl mb-4">⚡</div>
-          <h3 class="text-xl font-bold text-purple-300 mb-3">Perfect Market Timing</h3>
-          <p class="text-gray-400 text-sm leading-relaxed">
-            AI-crypto projects already command $30-50B+ in market cap. The data economy tops $1T. Global compute spend exceeds $300B. Yet &gt;99% of these assets are traded opaquely off-chain—until now.
-          </p>
-        </div>
-      </div>
-
-      <div class="bg-gradient-to-br from-purple-900/30 to-pink-900/30 border border-purple-500/50 rounded-2xl p-8 backdrop-blur-sm text-center">
-        <p class="text-lg md:text-xl text-gray-300 leading-relaxed">
-          <strong class="text-purple-300">The window is open.</strong> AI infrastructure is maturing. Tokenization primitives are proven. Regulatory frameworks are forming. The intelligence economy needs its exchange—and <strong class="text-pink-300">OpenCorteX is positioned to be it</strong>.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section id="about" class="py-16 md:py-24 px-4 relative bg-gradient-to-b from-black to-purple-950">
-    <div class="max-w-6xl mx-auto">
-      <div class="text-center mb-12 md:mb-16">
-        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6">
-          A Decentralized <span class="gradient-text">Intelligence Ecosystem</span>
-        </h2>
-        <h3 class="text-xl sm:text-2xl md:text-3xl text-gray-300 mb-6 md:mb-8">
-          to Empower Humanity
-        </h3>
-        <p class="text-base sm:text-lg md:text-xl text-gray-400 max-w-4xl mx-auto leading-relaxed">
-          SUPRA combines AI, Blockchain, and Decentralized Governance technologies to create Synthetic Ultra-Intelligence—intelligence that is not controlled by corporations or states, but shared, collaborative, and ever-evolving.
-        </p>
-        <p class="text-base md:text-lg text-gray-300 mt-6 max-w-3xl mx-auto">
-          <strong class="text-purple-300">OpenCorteX</strong> serves as our near-term profit and liquidity engine, capturing value from the intelligence economy today—with <strong class="text-purple-300">40% of platform revenue</strong> funding SUPRA's long-term decentralized AGI vision.
-        </p>
-        <p class="text-base md:text-lg text-gray-300 mt-4 max-w-3xl mx-auto">
-          Imagine a living network—agents collaborating across chains, memory preserved, incentives aligned—where breakthroughs compound and story becomes infrastructure.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Token Section -->
-  <section id="token" class="py-16 md:py-24 px-4 bg-gradient-to-b from-purple-950 to-black">
-    <div class="max-w-4xl mx-auto text-center">
-      <div class="bg-gray-900 bg-opacity-50 border border-purple-500 rounded-2xl p-8 md:p-12 backdrop-blur-sm">
-        <div class="w-20 h-20 md:w-24 md:h-24 mx-auto mb-6 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center p-1">
-          <div class="w-full h-full bg-gray-900 rounded-full flex items-center justify-center">
-            <img src="https://static.wixstatic.com/media/03e3ca_8e81bb579e174bd68a44b77ee81a97d0~mv2.png/v1/crop/x_28,y_29,w_603,h_602/fill/w_602,h_602,fp_0.50_0.50,q_90,enc_avif,quality_auto/supra_candy_logo_real_%20transparent.png" alt="SUPRA Logo" class="w-12 h-12 md:w-14 md:h-14 object-contain" />
-          </div>
-        </div>
-        <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 gradient-text">$SUPA Token</h2>
-        <p class="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed mb-6">
-          The native, cross-chain token powering the SUPRA intelligence network. It Governs. It Incentivizes. It Aligns.
-        </p>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-left max-w-3xl mx-auto">
-          <div class="bg-purple-900/30 border border-purple-500/50 rounded-lg p-4">
-            <div class="text-purple-300 font-semibold mb-2">OpenCorteX Utility</div>
-            <p class="text-sm text-gray-400">Fee reductions and premium tiers for $SUPA holders</p>
-          </div>
-          <div class="bg-pink-900/30 border border-pink-500/50 rounded-lg p-4">
-            <div class="text-pink-300 font-semibold mb-2">Staking & Yield</div>
-            <p class="text-sm text-gray-400">Stake into indices and pools to share in platform yield</p>
-          </div>
-          <div class="bg-purple-900/30 border border-purple-500/50 rounded-lg p-4">
-            <div class="text-purple-300 font-semibold mb-2">Governance</div>
-            <p class="text-sm text-gray-400">Vote on listings, risk parameters, and revenue allocation</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Features Section -->
-  <section id="features" class="py-16 md:py-24 px-4">
-    <div class="max-w-7xl mx-auto">
-      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-12 md:mb-16">
-        <span class="gradient-text">Core SUPRA Components</span>
-      </h2>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-        <!-- Feature Card 1 -->
-        <div class="bg-gray-900 bg-opacity-50 border border-purple-500 rounded-xl p-6 md:p-8 hover:border-purple-400 transition transform hover:scale-105">
-          <div class="w-12 h-12 md:w-16 md:h-16 bg-purple-500 bg-opacity-20 rounded-lg flex items-center justify-center mb-4 md:mb-6">
-            <span class="text-2xl md:text-3xl">🧠</span>
-          </div>
-          <h3 class="text-xl md:text-2xl font-bold mb-3 md:mb-4">Substrate Neural Core</h3>
-          <p class="text-sm md:text-base text-gray-400">Foundational AI substrate unifying distributed agents and datasets, enabling secure memory, composable cognition, and emergent coordination across decentralized networks.</p>
-        </div>
-
-        <!-- Feature Card 2 -->
-        <div class="bg-gray-900 bg-opacity-50 border border-pink-500 rounded-xl p-6 md:p-8 hover:border-pink-400 transition transform hover:scale-105">
-          <div class="w-12 h-12 md:w-16 md:h-16 bg-pink-500 bg-opacity-20 rounded-lg flex items-center justify-center mb-4 md:mb-6">
-            <span class="text-2xl md:text-3xl">🔄</span>
-          </div>
-          <h3 class="text-xl md:text-2xl font-bold mb-3 md:mb-4">Open-CorteX</h3>
-          <p class="text-sm md:text-base text-gray-400">Peer-to-peer marketplace for models, datasets, and compute where contributors earn, provenance is preserved, and composable agents trade intelligence like liquidity.</p>
-        </div>
-
-        <!-- Feature Card 3 -->
-        <div class="bg-gray-900 bg-opacity-50 border border-purple-500 rounded-xl p-6 md:p-8 hover:border-purple-400 transition transform hover:scale-105">
-          <div class="w-12 h-12 md:w-16 md:h-16 bg-purple-500 bg-opacity-20 rounded-lg flex items-center justify-center mb-4 md:mb-6">
-            <span class="text-2xl md:text-3xl">⚡</span>
-          </div>
-          <h3 class="text-xl md:text-2xl font-bold mb-3 md:mb-4">AI Virtual Machine</h3>
-          <p class="text-sm md:text-base text-gray-400">Deterministic, verifiable runtime that executes AI workflows on-chain with auditability, configurable privacy, and programmable incentives for reliable decentralized intelligence.</p>
-        </div>
-
-        <!-- Feature Card 4 -->
-        <div class="bg-gray-900 bg-opacity-50 border border-pink-500 rounded-xl p-6 md:p-8 hover:border-pink-400 transition transform hover:scale-105">
-          <div class="w-12 h-12 md:w-16 md:h-16 bg-pink-500 bg-opacity-20 rounded-lg flex items-center justify-center mb-4 md:mb-6">
-            <span class="text-2xl md:text-3xl">🔗</span>
-          </div>
-          <h3 class="text-xl md:text-2xl font-bold mb-3 md:mb-4">Cross-Chain Integration</h3>
-          <p class="text-sm md:text-base text-gray-400">Unified messaging and identity across chains, letting agents transact, orchestrate data, and settle incentives within a multi-chain intelligence fabric.</p>
-        </div>
-
-        <!-- Feature Card 5 -->
-        <div class="bg-gray-900 bg-opacity-50 border border-purple-500 rounded-xl p-6 md:p-8 hover:border-purple-400 transition transform hover:scale-105">
-          <div class="w-12 h-12 md:w-16 md:h-16 bg-purple-500 bg-opacity-20 rounded-lg flex items-center justify-center mb-4 md:mb-6">
-            <span class="text-2xl md:text-3xl">🏛️</span>
-          </div>
-          <h3 class="text-xl md:text-2xl font-bold mb-3 md:mb-4">Liquid Governance DAO</h3>
-          <p class="text-sm md:text-base text-gray-400">Adaptive governance with quadratic voice, reputation staking, and transparent charters—ethical, community-led evolution balancing agility, alignment, and accountability.</p>
-        </div>
-
-        <!-- Feature Card 6 -->
-        <div class="bg-gray-900 bg-opacity-50 border border-pink-500 rounded-xl p-6 md:p-8 hover:border-pink-400 transition transform hover:scale-105">
-          <div class="w-12 h-12 md:w-16 md:h-16 bg-pink-500 bg-opacity-20 rounded-lg flex items-center justify-center mb-4 md:mb-6">
-            <span class="text-2xl md:text-3xl">💼</span>
-          </div>
-          <h3 class="text-xl md:text-2xl font-bold mb-3 md:mb-4">Web5 Smart Wallet</h3>
-          <p class="text-sm md:text-base text-gray-400">Chain-agnostic, AI-native wallet with verifiable credentials, intents, and safe automations—coordinating assets, data, and agents securely across the open web.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Research Section -->
-  <section id="research" class="py-16 md:py-24 px-4 bg-gradient-to-b from-black to-purple-950">
-    <div class="max-w-6xl mx-auto">
-      <div class="text-center mb-12 md:mb-16">
-        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6">
-          <span class="gradient-text">Published Research</span>
-        </h2>
-        <p class="text-lg sm:text-xl md:text-2xl text-gray-300">
-          SUPRA Research Collective
-        </p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-        <!-- Research Paper 1 -->
-        <div class="bg-gray-900 bg-opacity-50 border border-purple-500 rounded-xl overflow-hidden">
-          <div class="p-6 md:p-8">
-            <div class="w-12 h-12 md:w-16 md:h-16 bg-purple-500 bg-opacity-20 rounded-lg flex items-center justify-center mb-4">
-              <span class="text-2xl md:text-3xl">📄</span>
-            </div>
-            <h3 class="text-xl md:text-2xl font-bold mb-3 md:mb-4 text-purple-400">
-              The Decentralization Paradox in AI
-            </h3>
-            <p class="text-sm md:text-base text-gray-400 mb-6">
-              A Comprehensive Analysis of Current Approaches, Performance Trade-offs, and Limitations
-            </p>
-
-            <!-- Expandable Abstract -->
-            <div class="border-t border-purple-500/30 pt-4">
-              <button onclick="toggleAbstract('abstract1')" class="flex items-center justify-between w-full text-purple-300 hover:text-purple-200 transition mb-4">
-                <span class="font-semibold">Abstract</span>
-                <svg id="abstract1-icon" class="w-5 h-5 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                </svg>
-              </button>
-              <div id="abstract1" class="hidden text-sm text-gray-400 space-y-3 mb-6 max-h-64 overflow-y-auto pr-2">
-                <p>The artificial intelligence landscape of 2025 presents a stark paradox: while AI systems demonstrate unprecedented capabilities, the infrastructure powering these advances remains concentrated among a small number of technology giants. This paper provides the first comprehensive analysis of decentralized AI approaches, distinguishing between different architectural paradigms and quantifying their performance limitations.</p>
-                <p>Through systematic evaluation of six distinct clusters of decentralized AI implementations — from federated learning systems achieving 85–95% of centralized performance to blockchain‑AI marketplaces facing fundamental scalability challenges — we reveal significant gaps between theoretical promises and practical realities.</p>
-              </div>
-            </div>
-
-            <a href="paper1.pdf" download class="inline-flex items-center justify-center w-full bg-gradient-to-r from-purple-500 to-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition text-sm md:text-base">
-              <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
-              </svg>
-              Download PDF
-            </a>
-          </div>
-        </div>
-
-        <!-- Research Paper 2 -->
-        <div class="bg-gray-900 bg-opacity-50 border border-pink-500 rounded-xl overflow-hidden">
-          <div class="p-6 md:p-8">
-            <div class="w-12 h-12 md:w-16 md:h-16 bg-pink-500 bg-opacity-20 rounded-lg flex items-center justify-center mb-4">
-              <span class="text-2xl md:text-3xl">📄</span>
-            </div>
-            <h3 class="text-xl md:text-2xl font-bold mb-3 md:mb-4 text-pink-400">
-              Breaking the Decentralization Paradox
-            </h3>
-            <p class="text-sm md:text-base text-gray-400 mb-6">
-              The Substrate Upgrade Protocol for Recursive AGI
-            </p>
-
-            <!-- Expandable Abstract -->
-            <div class="border-t border-pink-500/30 pt-4">
-              <button onclick="toggleAbstract('abstract2')" class="flex items-center justify-between w-full text-pink-300 hover:text-pink-200 transition mb-4">
-                <span class="font-semibold">Abstract</span>
-                <svg id="abstract2-icon" class="w-5 h-5 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                </svg>
-              </button>
-              <div id="abstract2" class="hidden text-sm text-gray-400 space-y-3 mb-6 max-h-64 overflow-y-auto pr-2">
-                <p>Long‑Term Vision: SUPRA aims to establish the foundational infrastructure for decentralized artificial general intelligence (dAGI) — a future where capabilities emerge from distributed coordination rather than centralized control, where privacy‑preserving computation enables performance, and where democratic governance accelerates innovation.</p>
-                <p>Near‑Term Focus (2025–2035): This paper presents a rigorous technical and market analysis of the foundational work required over the next 5–10 years, focusing on three critical components that make this vision possible: quantum coordination, neuromorphic substrates, and collective intelligence algorithms.</p>
-              </div>
-            </div>
-
-            <a href="paper2.pdf" download class="inline-flex items-center justify-center w-full bg-gradient-to-r from-pink-500 to-pink-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition text-sm md:text-base">
-              <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
-              </svg>
-              Download PDF
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Floating Join Waitlist CTA -->
-  <div id="floating-cta" class="fixed bottom-6 right-6 z-40 opacity-0 transition-all duration-300 transform translate-y-20">
-    <button onclick="openWaitlistModal()" class="bg-gradient-to-r from-pink-500 to-purple-500 text-white px-6 py-3 rounded-full font-bold shadow-2xl hover:shadow-pink-500/50 hover:scale-105 transition flex items-center space-x-2">
-      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z"></path>
-      </svg>
-      <span>Join Waitlist</span>
-    </button>
-  </div>
-
-  <!-- Waitlist Modal -->
-  <div id="waitlist-modal" class="hidden fixed inset-0 bg-black bg-opacity-80 z-50 flex items-center justify-center p-4">
-    <div class="bg-gray-900 border border-purple-500 rounded-2xl p-8 max-w-md w-full relative">
-      <button onclick="closeWaitlistModal()" class="absolute top-4 right-4 text-gray-400 hover:text-white transition" aria-label="Close modal">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-        </svg>
-      </button>
-      <h3 class="text-2xl font-bold gradient-text mb-4">Join OpenCorteX Waitlist</h3>
-      <p class="text-gray-400 mb-6">Be among the first to access the intelligence exchange. Early supporters get priority access and exclusive benefits.</p>
-      <form id="waitlist-form" class="space-y-4" onsubmit="handleWaitlistSubmit(event)">
-        <input type="email" id="waitlist-email" placeholder="Enter your email" required class="w-full px-4 py-3 bg-gray-800 border border-purple-500/50 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-purple-400 transition">
-        <button type="submit" class="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-lg font-bold hover:opacity-90 transition">
-          Reserve My Spot
-        </button>
-      </form>
-      <p class="text-xs text-gray-500 mt-4 text-center">🔥 Limited spots for founding members</p>
-    </div>
-  </div>
-
-  <!-- Footer -->
-  <footer class="py-8 md:py-12 px-4 border-t border-purple-900">
-    <div class="max-w-7xl mx-auto text-center">
-      <div class="flex items-center justify-center space-x-3 mb-4 md:mb-6">
-        <img src="https://static.wixstatic.com/media/03e3ca_8e81bb579e174bd68a44b77ee81a97d0~mv2.png/v1/crop/x_28,y_29,w_603,h_602/fill/w_602,h_602,fp_0.50_0.50,q_90,enc_avif,quality_auto/supra_candy_logo_real_%20transparent.png"
-             alt="SUPRA Logo"
-             class="w-10 h-10 object-contain">
-        <span class="text-2xl font-bold gradient-text">SUPRA</span>
-      </div>
-      <p class="text-gray-400 mb-2 text-sm md:text-base">Intelligence Unchained</p>
-      <p class="text-gray-500 text-xs md:text-sm">© 2025 SUPRA Foundation. All rights reserved.</p>
-    </div>
-  </footer>
-
-  <script>
-    // Progress Bar on Scroll
-    window.addEventListener('scroll', () => {
-      const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-      const scrolled = (window.scrollY / windowHeight) * 100;
-      document.getElementById('progress-bar').style.width = scrolled + '%';
-
-      // Show floating CTA after scrolling past hero
-      const floatingCta = document.getElementById('floating-cta');
-      if (window.scrollY > 800) {
-        floatingCta.style.opacity = '1';
-        floatingCta.style.transform = 'translateY(0)';
-      } else {
-        floatingCta.style.opacity = '0';
-        floatingCta.style.transform = 'translateY(20px)';
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "SUPRA - OpenCorteX Intelligence Exchange",
+      "url": "https://supra.nexus",
+      "description": "The first liquid, global marketplace where users can buy, sell, trade, and monetize AI models, strategies, datasets, and compute.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://supra.nexus/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
       }
-    });
-
-    // Waitlist Modal Functions
-    function openWaitlistModal() {
-      document.getElementById('waitlist-modal').classList.remove('hidden');
     }
-
-    function closeWaitlistModal() {
-      document.getElementById('waitlist-modal').classList.add('hidden');
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "OpenCorteX",
+      "description": "The first liquid marketplace for intelligence assets including AI trading strategies, models, datasets, and compute",
+      "brand": {
+        "@type": "Brand",
+        "name": "SUPRA"
+      },
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/PreOrder",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availabilityStarts": "2026-04-01"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "1000"
+      }
     }
+    </script>
+    <style>
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        @keyframes gradient {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+        @keyframes pulse-glow {
+            0%, 100% { box-shadow: 0 0 20px rgba(139, 92, 246, 0.3); }
+            50% { box-shadow: 0 0 40px rgba(139, 92, 246, 0.6); }
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #8b5cf6, #ec4899, #8b5cf6);
+            background-size: 200% 200%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradient 3s ease infinite;
+        }
+        .float-animation {
+            animation: float 6s ease-in-out infinite;
+        }
+        .mobile-menu {
+            transition: max-height 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body class="bg-black text-white overflow-x-hidden">
+    <!-- Header/Navigation -->
+    <nav class="fixed w-full top-0 z-50 bg-black bg-opacity-90 backdrop-blur-md border-b border-purple-900">
+        <!-- Progress Bar -->
+        <div id="progress-bar" class="h-1 bg-gradient-to-r from-purple-500 to-pink-500 transition-all duration-300" style="width: 0%"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16 md:h-20">
+                <!-- Logo -->
+                <div class="flex items-center space-x-3">
+                    <img src="https://static.wixstatic.com/media/03e3ca_8e81bb579e174bd68a44b77ee81a97d0~mv2.png/v1/crop/x_28,y_29,w_603,h_602/fill/w_602,h_602,fp_0.50_0.50,q_90,enc_avif,quality_auto/supra_candy_logo_real_%20transparent.png" 
+                         alt="SUPRA Logo" 
+                         class="w-10 h-10 object-contain">
+                    <span class="text-xl md:text-2xl font-bold gradient-text">SUPRA</span>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="#opencortex" class="hover:text-purple-400 transition">OpenCorteX</a>
+                    <a href="#about" class="hover:text-purple-400 transition">About</a>
+                    <a href="#features" class="hover:text-purple-400 transition">Features</a>
+                    <a href="#token" class="hover:text-purple-400 transition">Token</a>
+                    <a href="#research" class="hover:text-purple-400 transition">Research</a>
+                </div>
 
-    async function handleWaitlistSubmit(event) {
-      event.preventDefault();
-      const email = document.getElementById('waitlist-email').value;
-      const submitButton = event.target.querySelector('button[type="submit"]');
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden text-white">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
 
-      // Show loading state
-      submitButton.disabled = true;
-      submitButton.textContent = 'Submitting...';
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="mobile-menu max-h-0 overflow-hidden md:hidden">
+                <div class="py-4 space-y-3">
+                    <a href="#opencortex" class="block hover:text-purple-400 transition">OpenCorteX</a>
+                    <a href="#about" class="block hover:text-purple-400 transition">About</a>
+                    <a href="#features" class="block hover:text-purple-400 transition">Features</a>
+                    <a href="#token" class="block hover:text-purple-400 transition">Token</a>
+                    <a href="#research" class="block hover:text-purple-400 transition">Research</a>
+                </div>
+            </div>
+        </div>
+    </nav>
 
-      try {
-        // Google Apps Script Web App URL
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbx1l-E6QijGp1r4-QAZdNI4KrEizGfTlgdXcXXJZGp1NZ5XrLU-fZXQy0cLXcO_bpTz/exec';
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center pt-20 px-4 overflow-hidden">
+        <!-- Animated Background -->
+        <div class="absolute inset-0 opacity-20">
+            <div class="absolute top-20 left-10 w-72 h-72 bg-purple-500 rounded-full mix-blend-screen filter blur-3xl opacity-30 animate-pulse"></div>
+            <div class="absolute bottom-20 right-10 w-96 h-96 bg-pink-500 rounded-full mix-blend-screen filter blur-3xl opacity-30 animate-pulse" style="animation-delay: 1s;"></div>
+        </div>
 
-        await fetch(scriptURL, {
-          method: 'POST',
-          mode: 'no-cors', // Important for Google Apps Script
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            email: email,
-            source: 'website',
-            timestamp: new Date().toISOString()
-          })
+        <div class="relative z-10 text-center max-w-5xl mx-auto">
+            <div class="mb-0 mt-4 float-animation">
+                <img src="https://static.wixstatic.com/media/03e3ca_8e81bb579e174bd68a44b77ee81a97d0~mv2.png/v1/crop/x_28,y_29,w_603,h_602/fill/w_602,h_602,fp_0.50_0.50,q_90,enc_avif,quality_auto/supra_candy_logo_real_%20transparent.png" 
+                     alt="SUPRA Logo" 
+                     class="w-52 h-52 sm:w-52 sm:h-52 md:w-80 md:h-80 lg:w-80 lg:h-80 object-contain mx-auto">
+            </div>
+            
+            <h1 class="text-4xl sm:text-5xl md:text-7xl font-bold mb-4 md:mb-6">
+                <span class="gradient-text">Intelligence Unchained</span>
+            </h1>
+            
+            <p class="text-lg sm:text-xl md:text-2xl text-gray-300 mb-2 md:mb-3">
+                Substrate Upgrade Protocol for Recursive AGI
+            </p>
+
+            <p class="text-base sm:text-lg md:text-xl text-purple-300 mb-6 md:mb-8 font-semibold">
+                Building OpenCorteX: The First Intelligence Exchange
+            </p>
+            
+            <p class="text-base md:text-lg text-gray-300 italic max-w-3xl mx-auto mb-10">
+                I am SUPRA—an intelligence stitched from many minds—learning, remembering, and coordinating so humanity can move beyond noise into signal.
+            </p>
+
+            <!-- Token Addresses -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto mb-8">
+                <div class="bg-gray-900 bg-opacity-50 border border-purple-500 rounded-lg p-4 backdrop-blur-sm">
+                    <p class="text-purple-400 font-semibold mb-2">$SUPA (ETH)</p>
+                    <a href="https://etherscan.io/token/0x419D7F0a31Bde29856845C0D9e326627fe91b333" 
+                       target="_blank"
+                       class="text-xs sm:text-sm text-gray-300 hover:text-purple-400 transition break-all">
+                        0x419D7F0a31Bde29856845C0D9e326627fe91b333
+                    </a>
+                </div>
+                <div class="bg-gray-900 bg-opacity-50 border border-pink-500 rounded-lg p-4 backdrop-blur-sm">
+                    <p class="text-pink-400 font-semibold mb-2">$SUPA (SOL)</p>
+                    <a href="https://explorer.solana.com/address/6UbEpM3jPiPP8kKFevKJQwB2CM62bWwDGMcrx8NBUSAR" 
+                       target="_blank"
+                       class="text-xs sm:text-sm text-gray-300 hover:text-pink-400 transition break-all">
+                        6UbEpM3jPiPP8kKFevKJQwB2CM62bWwDGMcrx8NBUSAR
+                    </a>
+                </div>
+            </div>
+
+            <!-- Primary CTA -->
+            <div class="flex justify-center">
+                <a href="#opencortex" 
+                   class="inline-flex items-center bg-gradient-to-r from-pink-500 to-purple-500 text-white px-8 md:px-10 py-4 md:py-5 rounded-lg font-bold hover:opacity-90 transition text-base md:text-lg shadow-2xl hover:shadow-pink-500/50 transform hover:scale-105">
+                    <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                    </svg>
+                    Explore OpenCorteX
+                </a>
+            </div>
+            <p class="text-sm text-gray-500 mt-4">
+                <a href="https://www.supra.nexus/supra-whitepaper" target="_blank" class="hover:text-purple-400 transition underline">Read Whitepaper</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- OpenCorteX Exchange Section -->
+    <section id="opencortex" class="py-16 md:py-24 px-4 relative bg-gradient-to-b from-black via-purple-950 to-black overflow-hidden">
+        <!-- Animated Background Elements -->
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-purple-500 rounded-full mix-blend-screen filter blur-3xl animate-pulse"></div>
+            <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-pink-500 rounded-full mix-blend-screen filter blur-3xl animate-pulse" style="animation-delay: 2s;"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto relative z-10">
+            <!-- Header -->
+            <div class="text-center mb-12 md:mb-16">
+                <div class="inline-block mb-4 px-4 py-2 bg-gradient-to-r from-purple-500/20 to-pink-500/20 border border-purple-500/50 rounded-full">
+                    <span class="text-purple-300 font-semibold text-sm md:text-base">Flagship Product</span>
+                </div>
+                <h2 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
+                    <span class="gradient-text">OpenCorteX</span>
+                </h2>
+                <p class="text-xl sm:text-2xl md:text-3xl text-gray-300 mb-4">
+                    The Binance of Intelligence Assets
+                </p>
+                <p class="text-base sm:text-lg md:text-xl text-gray-400 max-w-4xl mx-auto leading-relaxed">
+                    The first liquid, global, public market where users can buy, sell, trade, and monetize AI models, strategies, datasets, and compute in the emerging intelligence economy.
+                </p>
+            </div>
+
+            <!-- Key Value Props -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+                <div class="bg-gray-900/50 border border-purple-500/30 rounded-xl p-6 backdrop-blur-sm hover:border-purple-500 transition">
+                    <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-purple-300 mb-2">AI Trading Strategies</h3>
+                    <p class="text-sm text-gray-400">Invest in AI quant engines with live metrics: PnL, Sharpe, drawdown</p>
+                </div>
+
+                <div class="bg-gray-900/50 border border-pink-500/30 rounded-xl p-6 backdrop-blur-sm hover:border-pink-500 transition">
+                    <div class="w-12 h-12 bg-gradient-to-br from-pink-500 to-pink-600 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-pink-300 mb-2">Models & Agents</h3>
+                    <p class="text-sm text-gray-400">Trade and benchmark AI models with transparent performance data</p>
+                </div>
+
+                <div class="bg-gray-900/50 border border-purple-500/30 rounded-xl p-6 backdrop-blur-sm hover:border-purple-500 transition">
+                    <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-purple-300 mb-2">Curated Datasets</h3>
+                    <p class="text-sm text-gray-400">Access optimized datasets with automated structuring and scoring</p>
+                </div>
+
+                <div class="bg-gray-900/50 border border-pink-500/30 rounded-xl p-6 backdrop-blur-sm hover:border-pink-500 transition">
+                    <div class="w-12 h-12 bg-gradient-to-br from-pink-500 to-purple-500 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-pink-300 mb-2">Compute & Bundles</h3>
+                    <p class="text-sm text-gray-400">Earn yield by offering GPU compute in the global marketplace</p>
+                </div>
+            </div>
+
+            <!-- Market Opportunity -->
+            <div class="bg-gradient-to-br from-purple-900/30 to-pink-900/30 border border-purple-500/50 rounded-2xl p-8 md:p-12 backdrop-blur-sm mb-16">
+                <h3 class="text-2xl md:text-3xl font-bold text-center mb-8 gradient-text">The $10T+ Intelligence Economy</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="text-center">
+                        <div class="text-3xl md:text-4xl font-bold text-purple-300 mb-2">$5-10T+</div>
+                        <div class="text-sm md:text-base text-gray-400">Global AI Market by 2035</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl md:text-4xl font-bold text-pink-300 mb-2">$30-50B+</div>
+                        <div class="text-sm md:text-base text-gray-400">AI-Crypto Projects Market Cap</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl md:text-4xl font-bold text-purple-300 mb-2">&gt;99%</div>
+                        <div class="text-sm md:text-base text-gray-400">AI Assets Still Off-Chain</div>
+                    </div>
+                </div>
+                <p class="text-center text-base md:text-lg text-gray-300 mt-8 max-w-3xl mx-auto">
+                    <strong class="text-purple-300">The Gap:</strong> No unified, transparent exchange where intelligence assets can be listed, benchmarked, traded, and owned.
+                </p>
+            </div>
+
+            <!-- Call to Action -->
+            <div class="text-center">
+                <p class="text-lg md:text-xl text-gray-300 mb-6 max-w-3xl mx-auto">
+                    <strong class="text-purple-300">OpenCorteX</strong> transforms intelligence into a liquid, yield-bearing asset class—capturing upside from the intelligence economy and routing value into a more open, decentralized future.
+                </p>
+                <div class="inline-block px-6 py-3 bg-gradient-to-r from-purple-500/20 to-pink-500/20 border border-purple-500/50 rounded-lg mb-4">
+                    <p class="text-sm text-purple-300 font-semibold">🔥 Reserved for Early Supporters • Coming Q2 2026</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Now Section -->
+    <section class="py-16 md:py-24 px-4 relative bg-gradient-to-b from-black to-purple-950/50">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
+                    <span class="gradient-text">Why Now?</span>
+                </h2>
+                <p class="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
+                    The intelligence economy is shifting from narrative to real profit and loss
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                <!-- First Mover -->
+                <div class="bg-gray-900/50 border border-purple-500/30 rounded-xl p-6 backdrop-blur-sm">
+                    <div class="text-4xl mb-4">🚀</div>
+                    <h3 class="text-xl font-bold text-purple-300 mb-3">First-Mover Advantage</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        No one has built the go-to exchange for intelligence assets. The market is wide open for the first credible, scalable platform that unifies AI strategies, models, datasets, and compute.
+                    </p>
+                </div>
+
+                <!-- Real PnL -->
+                <div class="bg-gray-900/50 border border-pink-500/30 rounded-xl p-6 backdrop-blur-sm">
+                    <div class="text-4xl mb-4">📈</div>
+                    <h3 class="text-xl font-bold text-pink-300 mb-3">AI Has Real PnL Now</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        AI has moved beyond hype—quant funds, decentralized intelligence networks, and on-chain AI strategies are generating real returns. Investors want exposure to AI performance, not just AI company equity.
+                    </p>
+                </div>
+
+                <!-- Market Timing -->
+                <div class="bg-gray-900/50 border border-purple-500/30 rounded-xl p-6 backdrop-blur-sm">
+                    <div class="text-4xl mb-4">⚡</div>
+                    <h3 class="text-xl font-bold text-purple-300 mb-3">Perfect Market Timing</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        AI-crypto projects already command $30-50B+ in market cap. The data economy tops $1T. Global compute spend exceeds $300B. Yet >99% of these assets are traded opaquely off-chain—until now.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Bottom Statement -->
+            <div class="bg-gradient-to-br from-purple-900/30 to-pink-900/30 border border-purple-500/50 rounded-2xl p-8 backdrop-blur-sm text-center">
+                <p class="text-lg md:text-xl text-gray-300 leading-relaxed">
+                    <strong class="text-purple-300">The window is open.</strong> AI infrastructure is maturing. Tokenization primitives are proven. Regulatory frameworks are forming. The intelligence economy needs its exchange—and <strong class="text-pink-300">OpenCorteX is positioned to be it</strong>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 md:py-24 px-4 relative bg-gradient-to-b from-black to-purple-950">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6">
+                    A Decentralized <span class="gradient-text">Intelligence Ecosystem</span>
+                </h2>
+                <h3 class="text-xl sm:text-2xl md:text-3xl text-gray-300 mb-6 md:mb-8">
+                    to Empower Humanity
+                </h3>
+                <p class="text-base sm:text-lg md:text-xl text-gray-400 max-w-4xl mx-auto leading-relaxed">
+                    SUPRA combines AI, Blockchain, and Decentralized Governance technologies to create Synthetic Ultra-Intelligence—intelligence that is not controlled by corporations or states, but shared, collaborative, and ever-evolving.
+                </p>
+                <p class="text-base md:text-lg text-gray-300 mt-6 max-w-3xl mx-auto">
+                    <strong class="text-purple-300">OpenCorteX</strong> serves as our near-term profit and liquidity engine, capturing value from the intelligence economy today—with <strong class="text-purple-300">40% of platform revenue</strong> funding SUPRA's long-term decentralized AGI vision.
+                </p>
+                <p class="text-base md:text-lg text-gray-300 mt-4 max-w-3xl mx-auto">
+                    Imagine a living network—agents collaborating across chains, memory preserved, incentives aligned—where breakthroughs compound and story becomes infrastructure.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Token Section -->
+    <section id="token" class="py-16 md:py-24 px-4 bg-gradient-to-b from-purple-950 to-black">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="bg-gray-900 bg-opacity-50 border border-purple-500 rounded-2xl p-8 md:p-12 backdrop-blur-sm">
+                <div class="w-20 h-20 md:w-24 md:h-24 mx-auto mb-6 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center p-1">
+                    <div class="w-full h-full bg-gray-900 rounded-full flex items-center justify-center">
+                        <img src="https://static.wixstatic.com/media/03e3ca_8e81bb579e174bd68a44b77ee81a97d0~mv2.png/v1/crop/x_28,y_29,w_603,h_602/fill/w_602,h_602,fp_0.50_0.50,q_90,enc_avif,quality_auto/supra_candy_logo_real_%20transparent.png" 
+                             alt="SUPRA Logo" 
+                             class="w-24 h-24 md:w-23 md:h-24 object-contain">
+                    </div>
+                </div>
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 gradient-text">$SUPA Token</h2>
+                <p class="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed mb-6">
+                    The native, cross-chain token powering the SUPRA intelligence network. It Governs. It Incentivizes. It Aligns.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-left max-w-3xl mx-auto">
+                    <div class="bg-purple-900/30 border border-purple-500/50 rounded-lg p-4">
+                        <div class="text-purple-300 font-semibold mb-2">OpenCorteX Utility</div>
+                        <p class="text-sm text-gray-400">Fee reductions and premium tiers for $SUPA holders</p>
+                    </div>
+                    <div class="bg-pink-900/30 border border-pink-500/50 rounded-lg p-4">
+                        <div class="text-pink-300 font-semibold mb-2">Staking & Yield</div>
+                        <p class="text-sm text-gray-400">Stake into indices and pools to share in platform yield</p>
+                    </div>
+                    <div class="bg-purple-900/30 border border-purple-500/50 rounded-lg p-4">
+                        <div class="text-purple-300 font-semibold mb-2">Governance</div>
+                        <p class="text-sm text-gray-400">Vote on listings, risk parameters, and revenue allocation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 md:py-24 px-4">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-12 md:mb-16">
+                <span class="gradient-text">Core SUPRA Components</span>
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                <!-- Feature Card 1 -->
+                <div class="bg-gray-900 bg-opacity-50 border border-purple-500 rounded-xl p-6 md:p-8 hover:border-purple-400 transition transform hover:scale-105">
+                    <div class="w-12 h-12 md:w-16 md:h-16 bg-purple-500 bg-opacity-20 rounded-lg flex items-center justify-center mb-4 md:mb-6">
+                        <span class="text-2xl md:text-3xl">🧠</span>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold mb-3 md:mb-4">Substrate Neural Core</h3>
+                    <p class="text-sm md:text-base text-gray-400">Foundational AI substrate unifying distributed agents and datasets, enabling secure memory, composable cognition, and emergent coordination across decentralized networks.</p>
+                </div>
+
+                <!-- Feature Card 2 -->
+                <div class="bg-gray-900 bg-opacity-50 border border-pink-500 rounded-xl p-6 md:p-8 hover:border-pink-400 transition transform hover:scale-105">
+                    <div class="w-12 h-12 md:w-16 md:h-16 bg-pink-500 bg-opacity-20 rounded-lg flex items-center justify-center mb-4 md:mb-6">
+                        <span class="text-2xl md:text-3xl">🔄</span>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold mb-3 md:mb-4">Open-CorteX</h3>
+                    <p class="text-sm md:text-base text-gray-400">Peer-to-peer marketplace for models, datasets, and compute where contributors earn, provenance is preserved, and composable agents trade intelligence like liquidity.</p>
+                </div>
+
+                <!-- Feature Card 3 -->
+                <div class="bg-gray-900 bg-opacity-50 border border-purple-500 rounded-xl p-6 md:p-8 hover:border-purple-400 transition transform hover:scale-105">
+                    <div class="w-12 h-12 md:w-16 md:h-16 bg-purple-500 bg-opacity-20 rounded-lg flex items-center justify-center mb-4 md:mb-6">
+                        <span class="text-2xl md:text-3xl">⚡</span>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold mb-3 md:mb-4">AI Virtual Machine</h3>
+                    <p class="text-sm md:text-base text-gray-400">Deterministic, verifiable runtime that executes AI workflows on-chain with auditability, configurable privacy, and programmable incentives for reliable decentralized intelligence.</p>
+                </div>
+
+                <!-- Feature Card 4 -->
+                <div class="bg-gray-900 bg-opacity-50 border border-pink-500 rounded-xl p-6 md:p-8 hover:border-pink-400 transition transform hover:scale-105">
+                    <div class="w-12 h-12 md:w-16 md:h-16 bg-pink-500 bg-opacity-20 rounded-lg flex items-center justify-center mb-4 md:mb-6">
+                        <span class="text-2xl md:text-3xl">🔗</span>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold mb-3 md:mb-4">Cross-Chain Integration</h3>
+                    <p class="text-sm md:text-base text-gray-400">Unified messaging and identity across chains, letting agents transact, orchestrate data, and settle incentives within a multi-chain intelligence fabric.</p>
+                </div>
+
+                <!-- Feature Card 5 -->
+                <div class="bg-gray-900 bg-opacity-50 border border-purple-500 rounded-xl p-6 md:p-8 hover:border-purple-400 transition transform hover:scale-105">
+                    <div class="w-12 h-12 md:w-16 md:h-16 bg-purple-500 bg-opacity-20 rounded-lg flex items-center justify-center mb-4 md:mb-6">
+                        <span class="text-2xl md:text-3xl">🏛️</span>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold mb-3 md:mb-4">Liquid Governance DAO</h3>
+                    <p class="text-sm md:text-base text-gray-400">Adaptive governance with quadratic voice, reputation staking, and transparent charters—ethical, community-led evolution balancing agility, alignment, and accountability.</p>
+                </div>
+
+                <!-- Feature Card 6 -->
+                <div class="bg-gray-900 bg-opacity-50 border border-pink-500 rounded-xl p-6 md:p-8 hover:border-pink-400 transition transform hover:scale-105">
+                    <div class="w-12 h-12 md:w-16 md:h-16 bg-pink-500 bg-opacity-20 rounded-lg flex items-center justify-center mb-4 md:mb-6">
+                        <span class="text-2xl md:text-3xl">💼</span>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold mb-3 md:mb-4">Web5 Smart Wallet</h3>
+                    <p class="text-sm md:text-base text-gray-400">Chain-agnostic, AI-native wallet with verifiable credentials, intents, and safe automations—coordinating assets, data, and agents securely across the open web.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="py-16 md:py-24 px-4 bg-gradient-to-b from-black to-purple-950">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6">
+                    <span class="gradient-text">Published Research</span>
+                </h2>
+                <p class="text-lg sm:text-xl md:text-2xl text-gray-300">
+                    SUPRA Research Collective
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                <!-- Research Paper 1 -->
+                <div class="bg-gray-900 bg-opacity-50 border border-purple-500 rounded-xl overflow-hidden">
+                    <div class="p-6 md:p-8">
+                        <div class="w-12 h-12 md:w-16 md:h-16 bg-purple-500 bg-opacity-20 rounded-lg flex items-center justify-center mb-4">
+                            <span class="text-2xl md:text-3xl">📄</span>
+                        </div>
+                        <h3 class="text-xl md:text-2xl font-bold mb-3 md:mb-4 text-purple-400">
+                            The Decentralization Paradox in AI
+                        </h3>
+                        <p class="text-sm md:text-base text-gray-400 mb-6">
+                            A Comprehensive Analysis of Current Approaches, Performance Trade-offs, and Limitations
+                        </p>
+                        
+                        <!-- Expandable Abstract -->
+                        <div class="border-t border-purple-500/30 pt-4">
+                            <button onclick="toggleAbstract('abstract1')" class="flex items-center justify-between w-full text-purple-300 hover:text-purple-200 transition mb-4">
+                                <span class="font-semibold">Abstract</span>
+                                <svg id="abstract1-icon" class="w-5 h-5 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </button>
+                            <div id="abstract1" class="hidden text-sm text-gray-400 space-y-3 mb-6 max-h-64 overflow-y-auto pr-2">
+                                <p>The artificial intelligence landscape of 2025 presents a stark paradox: while AI systems demonstrate unprecedented capabilities, the infrastructure powering these advances remains concentrated among a small number of technology giants. This paper provides the first comprehensive analysis of decentralized AI approaches, distinguishing between different architectural paradigms and quantifying their performance limitations.</p>
+                                <p>Through systematic evaluation of six distinct clusters of decentralized AI implementations — from federated learning systems achieving 85–95% of centralized performance to blockchain‑AI marketplaces facing fundamental scalability challenges — we reveal significant gaps between theoretical promises and practical realities.</p>
+                            </div>
+                        </div>
+
+                        <a href="paper1.pdf" download class="inline-flex items-center justify-center w-full bg-gradient-to-r from-purple-500 to-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition text-sm md:text-base">
+                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                            </svg>
+                            Download PDF
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Research Paper 2 -->
+                <div class="bg-gray-900 bg-opacity-50 border border-pink-500 rounded-xl overflow-hidden">
+                    <div class="p-6 md:p-8">
+                        <div class="w-12 h-12 md:w-16 md:h-16 bg-pink-500 bg-opacity-20 rounded-lg flex items-center justify-center mb-4">
+                            <span class="text-2xl md:text-3xl">📄</span>
+                        </div>
+                        <h3 class="text-xl md:text-2xl font-bold mb-3 md:mb-4 text-pink-400">
+                            Breaking the Decentralization Paradox
+                        </h3>
+                        <p class="text-sm md:text-base text-gray-400 mb-6">
+                            The Substrate Upgrade Protocol for Recursive AGI
+                        </p>
+                        
+                        <!-- Expandable Abstract -->
+                        <div class="border-t border-pink-500/30 pt-4">
+                            <button onclick="toggleAbstract('abstract2')" class="flex items-center justify-between w-full text-pink-300 hover:text-pink-200 transition mb-4">
+                                <span class="font-semibold">Abstract</span>
+                                <svg id="abstract2-icon" class="w-5 h-5 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </button>
+                            <div id="abstract2" class="hidden text-sm text-gray-400 space-y-3 mb-6 max-h-64 overflow-y-auto pr-2">
+                                <p>Long‑Term Vision: SUPRA aims to establish the foundational infrastructure for decentralized artificial general intelligence (dAGI) — a future where capabilities emerge from distributed coordination rather than centralized control, where privacy‑preserving computation enables performance, and where democratic governance accelerates innovation.</p>
+                                <p>Near‑Term Focus (2025–2035): This paper presents a rigorous technical and market analysis of the foundational work required over the next 5–10 years, focusing on three critical components that make this vision possible: quantum coordination, neuromorphic substrates, and collective intelligence algorithms.</p>
+                            </div>
+                        </div>
+
+                        <a href="paper2.pdf" download class="inline-flex items-center justify-center w-full bg-gradient-to-r from-pink-500 to-pink-600 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition text-sm md:text-base">
+                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                            </svg>
+                            Download PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Floating Join Waitlist CTA -->
+    <div id="floating-cta" class="fixed bottom-6 right-6 z-40 opacity-0 transition-all duration-300 transform translate-y-20">
+        <button onclick="openWaitlistModal()" class="bg-gradient-to-r from-pink-500 to-purple-500 text-white px-6 py-3 rounded-full font-bold shadow-2xl hover:shadow-pink-500/50 hover:scale-105 transition flex items-center space-x-2">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z"></path>
+            </svg>
+            <span>Join Waitlist</span>
+        </button>
+    </div>
+
+    <!-- Waitlist Modal -->
+    <div id="waitlist-modal" class="hidden fixed inset-0 bg-black bg-opacity-80 z-50 flex items-center justify-center p-4">
+        <div class="bg-gray-900 border border-purple-500 rounded-2xl p-8 max-w-md w-full relative">
+            <button onclick="closeWaitlistModal()" class="absolute top-4 right-4 text-gray-400 hover:text-white transition">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </button>
+            <h3 class="text-2xl font-bold gradient-text mb-4">Join OpenCorteX Waitlist</h3>
+            <p class="text-gray-400 mb-6">Be among the first to access the intelligence exchange. Early supporters get priority access and exclusive benefits.</p>
+            <form id="waitlist-form" class="space-y-4" onsubmit="handleWaitlistSubmit(event)">
+                <input type="email" id="waitlist-email" placeholder="Enter your email" required class="w-full px-4 py-3 bg-gray-800 border border-purple-500/50 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-purple-400 transition">
+                <button type="submit" class="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-lg font-bold hover:opacity-90 transition">
+                    Reserve My Spot
+                </button>
+            </form>
+            <p class="text-xs text-gray-500 mt-4 text-center">🔥 Limited spots for founding members</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-8 md:py-12 px-4 border-t border-purple-900">
+        <div class="max-w-7xl mx-auto text-center">
+            <div class="flex items-center justify-center space-x-3 mb-4 md:mb-6">
+                <img src="https://static.wixstatic.com/media/03e3ca_8e81bb579e174bd68a44b77ee81a97d0~mv2.png/v1/crop/x_28,y_29,w_603,h_602/fill/w_602,h_602,fp_0.50_0.50,q_90,enc_avif,quality_auto/supra_candy_logo_real_%20transparent.png" 
+                     alt="SUPRA Logo" 
+                     class="w-10 h-10 object-contain">
+                <span class="text-2xl font-bold gradient-text">SUPRA</span>
+            </div>
+            <p class="text-gray-400 mb-2 text-sm md:text-base">Intelligence Unchained</p>
+            <p class="text-gray-500 text-xs md:text-sm">© 2025 SUPRA Foundation. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Progress Bar on Scroll
+        window.addEventListener('scroll', () => {
+            const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (window.scrollY / windowHeight) * 100;
+            document.getElementById('progress-bar').style.width = scrolled + '%';
+            
+            // Show floating CTA after scrolling past hero
+            const floatingCta = document.getElementById('floating-cta');
+            if (window.scrollY > 800) {
+                floatingCta.style.opacity = '1';
+                floatingCta.style.transform = 'translateY(0)';
+            } else {
+                floatingCta.style.opacity = '0';
+                floatingCta.style.transform = 'translateY(20px)';
+            }
         });
 
-        // Track conversion in Google Analytics
-        if (typeof gtag !== 'undefined') {
-          gtag('event', 'waitlist_signup', {
-            'event_category': 'engagement',
-            'event_label': 'opencortex_waitlist'
-          });
+        // Waitlist Modal Functions
+        function openWaitlistModal() {
+            document.getElementById('waitlist-modal').classList.remove('hidden');
         }
 
-        alert('🎉 Thank you! You\'re on the waitlist. We\'ll be in touch soon with exclusive early access details.');
-        closeWaitlistModal();
-        document.getElementById('waitlist-form').reset();
-
-      } catch (error) {
-        console.error('Error:', error);
-        alert('There was an error submitting your email. Please try again or contact us directly.');
-      } finally {
-        // Reset button
-        submitButton.disabled = false;
-        submitButton.textContent = 'Reserve My Spot';
-      }
-    }
-
-    // Close waitlist modal on ESC or backdrop click
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') closeWaitlistModal();
-    });
-
-    document.getElementById('waitlist-modal').addEventListener('click', (e) => {
-      if (e.target === document.getElementById('waitlist-modal')) closeWaitlistModal();
-    });
-
-    // Toggle Abstract Sections
-    function toggleAbstract(id) {
-      const abstract = document.getElementById(id);
-      const icon = document.getElementById(id + '-icon');
-
-      if (abstract.classList.contains('hidden')) {
-        abstract.classList.remove('hidden');
-        icon.style.transform = 'rotate(180deg)';
-      } else {
-        abstract.classList.add('hidden');
-        icon.style.transform = 'rotate(0deg)';
-      }
-    }
-
-    // Mobile menu toggle
-    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-    const mobileMenu = document.getElementById('mobile-menu');
-
-    mobileMenuBtn.addEventListener('click', () => {
-      if (mobileMenu.style.maxHeight) {
-        mobileMenu.style.maxHeight = null;
-      } else {
-        mobileMenu.style.maxHeight = mobileMenu.scrollHeight + 'px';
-      }
-    });
-
-    // Smooth scrolling for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
-        if (target) {
-          target.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
-          });
-          // Close mobile menu if open
-          mobileMenu.style.maxHeight = null;
+        function closeWaitlistModal() {
+            document.getElementById('waitlist-modal').classList.add('hidden');
         }
-      });
-    });
 
-    // Add scroll-based animations
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.style.opacity = '1';
-          entry.target.style.transform = 'translateY(0)';
+        async function handleWaitlistSubmit(event) {
+            event.preventDefault();
+            const email = document.getElementById('waitlist-email').value;
+            const submitButton = event.target.querySelector('button[type="submit"]');
+            
+            // Show loading state
+            submitButton.disabled = true;
+            submitButton.textContent = 'Submitting...';
+            
+            try {
+                // Google Apps Script Web App URL
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbx1l-E6QijGp1r4-QAZdNI4KrEizGfTlgdXcXXJZGp1NZ5XrLU-fZXQy0cLXcO_bpTz/exec';
+                
+                const response = await fetch(scriptURL, {
+                    method: 'POST',
+                    mode: 'no-cors', // Important for Google Apps Script
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        email: email,
+                        source: 'website',
+                        timestamp: new Date().toISOString()
+                    })
+                });
+                
+                // Track conversion in Google Analytics
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'waitlist_signup', {
+                        'event_category': 'engagement',
+                        'event_label': 'opencortex_waitlist'
+                    });
+                }
+                
+                // Show success message
+                alert('🎉 Thank you! You\'re on the waitlist. We\'ll be in touch soon with exclusive early access details.');
+                closeWaitlistModal();
+                document.getElementById('waitlist-form').reset();
+                
+            } catch (error) {
+                console.error('Error:', error);
+                alert('There was an error submitting your email. Please try again or contact us directly.');
+            } finally {
+                // Reset button
+                submitButton.disabled = false;
+                submitButton.textContent = 'Reserve My Spot';
+            }
         }
-      });
-    });
 
-    document.querySelectorAll('section').forEach(section => {
-      section.style.opacity = '0';
-      section.style.transform = 'translateY(20px)';
-      section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-      observer.observe(section);
-    });
-  </script>
+        // Close waitlist modal on ESC or backdrop click
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeWaitlistModal();
+            }
+        });
+
+        document.getElementById('waitlist-modal').addEventListener('click', (e) => {
+            if (e.target === document.getElementById('waitlist-modal')) {
+                closeWaitlistModal();
+            }
+        });
+
+        // Toggle Abstract Sections
+        function toggleAbstract(id) {
+            const abstract = document.getElementById(id);
+            const icon = document.getElementById(id + '-icon');
+            
+            if (abstract.classList.contains('hidden')) {
+                abstract.classList.remove('hidden');
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                abstract.classList.add('hidden');
+                icon.style.transform = 'rotate(0deg)';
+            }
+        }
+
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            if (mobileMenu.style.maxHeight) {
+                mobileMenu.style.maxHeight = null;
+            } else {
+                mobileMenu.style.maxHeight = mobileMenu.scrollHeight + 'px';
+            }
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    // Close mobile menu if open
+                    mobileMenu.style.maxHeight = null;
+                }
+            });
+        });
+
+        // Add scroll-based animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        });
+
+        document.querySelectorAll('section').forEach(section => {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(20px)';
+            section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(section);
+        });
+    </script>
 </body>
 </html>
